@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Highlights from './components/HIghlights'
+import HIghlights from './components/HIghlights'
 
 const App = () => {
   return (
   <main className='bg-black'>
    <Navbar/>
    <Hero/>
-   <Highlights/>
+   <HIghlights/>
   </main>
   )
 }
